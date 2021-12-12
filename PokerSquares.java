@@ -266,7 +266,7 @@ public class PokerSquares {
                 ArrayList<PokerSquaresPlayer> players = new ArrayList<PokerSquaresPlayer>();
                 players.add(new RandomPlayer());
                 players.add(new FlushPlayer());
-				players.add(new RandomMCPlayer());
+				players.add(new Yren2PokerSquaresPlayer());
 
 
                 ArrayList<PokerSquaresPointSystem> systems = new ArrayList<PokerSquaresPointSystem>();
